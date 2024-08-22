@@ -1,0 +1,4 @@
+
+<h1 class="text-3xl text-blue-700 font-bold underline">thisSiteIsNew</h1>
+<p class="bg-sky-600 text-slate-100">The thisSiteIsNew uses a theme called thisThemeIsNew</p>
+    
