@@ -1,0 +1,3 @@
+[submodule "themes/nxtypo"]
+	path = themes/nxtypo
+	url = git@github.com:cdgn-coding/nxtypo.git

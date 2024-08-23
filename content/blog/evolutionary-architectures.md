@@ -1,1 +1,0 @@
-# Evolución de arquitecturas

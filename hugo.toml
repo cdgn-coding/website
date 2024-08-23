@@ -1,14 +1,69 @@
 baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+languageCode = 'es-es'
+title = 'Carlos Nexans'
+sectionPagesMenu = 'main'
+theme = "nxtypo"
 
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.extensions]
-      [markup.goldmark.extensions.passthrough]
-        enable = true
-        [markup.goldmark.extensions.passthrough.delimiters]
-          block = [['\[', '\]'], ['$$', '$$']]
-          inline = [['\(', '\)']]
+[taxonomies]
+tag = 'tags'
+
+# Google analytics code
+googleAnalytics = "G-xxxxxxxxx"
+
 [params]
-  math = true
+# Meta description
+description = "A Tech Blog"
+
+# Appearance settings
+theme = 'auto'
+colorPalette = 'default'
+hideHeader = false
+
+# Intro on main page, content is markdown
+# homeIntroTitle = 'Hi!'
+#homeIntroContent = """
+#I am an Italian Software Engineer with a strong foundation in computer science and a passion for solving complex problems.
+#I am interested in a range of topics, including algorithms, distributed systems, databases, and information retrieval.
+#"""
+
+# Collection to display on home
+homeCollectionTitle = 'Ultimas publicaciones'
+homeCollection = 'post'
+
+# Lists parameters
+paginationSize = 100
+listSummaries = true
+listDateFormat = '2 Jan 2006'
+
+# Breadcrumbs
+breadcrumbs = true
+
+# Social icons
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/user/"
+
+[[params.social]]
+name = "medium"
+url = "https://medium.com/@user"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/user"
+
+# Main menu pages
+[[params.menu]]
+name = "Home"
+url = "/"
+
+[[params.menu]]
+name = "Blog"
+url = "/post"
+
+# Syntax highligth on code blocks
+[markup]
+[markup.highlight]
+style = 'algol'
+
+[markup.goldmark.renderer]
+  unsafe = true # Allow HTML in md files
