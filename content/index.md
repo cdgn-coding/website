@@ -1,9 +1,8 @@
 ---
-title: Home
+title: Hola, soy Carlos Nexans
 draft: false
+disableComments: true
 ---
-
-# Hola, soy Carlos Nexans
 
 Comparto conocimiento programación e ingeniería de software, **especialmente sobre la web**. En este sitio encontrarás **tutoriales y recursos**.
 
