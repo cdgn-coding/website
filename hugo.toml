@@ -1,5 +1,7 @@
 baseURL = 'https://example.org/'
 languageCode = 'es-es'
+defaultContentLanguage = "es"
+defaultContentLang = "es"
 title = 'Carlos Nexans'
 sectionPagesMenu = 'main'
 theme = "nxtypo"
@@ -38,18 +40,27 @@ listDateFormat = '2 Jan 2006'
 # Breadcrumbs
 breadcrumbs = true
 
+[params.comments]
+enable = true
+
 # Social icons
 [[params.social]]
 name = "linkedin"
-url = "https://www.linkedin.com/in/user/"
+url = "https://www.linkedin.com/in/cdgn-cv/"
 
 [[params.social]]
 name = "medium"
-url = "https://medium.com/@user"
+url = "https://medium.com/@nexanscarlos"
 
 [[params.social]]
 name = "github"
-url = "https://github.com/user"
+url = "https://github.com/cdgn-coding"
+
+[[params.social]]
+name = "x"
+url = "https://x.com/techycarlos"
+
+[[params.social]]
 
 # Main menu pages
 [[params.menu]]
@@ -60,9 +71,9 @@ url = "/"
 name = "Blog"
 url = "/articulos"
 
-[[params.menu]]
-name = "Tutoriales"
-url = "/tutoriales"
+# [[params.menu]]
+# name = "Tutoriales"
+# url = "/tutoriales"
 
 # Syntax highligth on code blocks
 [markup]

@@ -2,19 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/articulos/</loc>
-    <lastmod>2024-07-04T00:00:00+00:00</lastmod>
+    <loc>https://example.org/g-xxxxxxxxx/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-07-04T00:00:00+00:00</lastmod>
+    <loc>https://example.org/</loc>
   </url><url>
-    <loc>http://localhost:1313/articulos/2024-07-04-nueva-era-tecnologica-sin-codigo/</loc>
-    <lastmod>2024-07-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/g-xxxxxxxxx/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tutoriales/</loc>
+    <loc>https://example.org/tags/</loc>
   </url>
 </urlset>
