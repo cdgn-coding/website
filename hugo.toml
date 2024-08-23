@@ -28,11 +28,11 @@ hideHeader = false
 
 # Collection to display on home
 homeCollectionTitle = 'Ultimas publicaciones'
-homeCollection = 'post'
+homeCollection = 'articulos'
 
 # Lists parameters
-paginationSize = 100
-listSummaries = true
+paginationSize = 10
+listSummaries = false
 listDateFormat = '2 Jan 2006'
 
 # Breadcrumbs
@@ -58,7 +58,11 @@ url = "/"
 
 [[params.menu]]
 name = "Blog"
-url = "/post"
+url = "/articulos"
+
+[[params.menu]]
+name = "Tutoriales"
+url = "/tutoriales"
 
 # Syntax highligth on code blocks
 [markup]

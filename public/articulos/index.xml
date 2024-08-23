@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on Carlos Nexans</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content in Home on Carlos Nexans</description>
+    <title>Articulos on Carlos Nexans</title>
+    <link>http://localhost:1313/articulos/</link>
+    <description>Recent content in Articulos on Carlos Nexans</description>
     <generator>Hugo</generator>
     <language>es-es</language>
     <lastBuildDate>Thu, 04 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/articulos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>La nueva era tecnológica y su futuro sin código</title>
       <link>http://localhost:1313/articulos/2024-07-04-nueva-era-tecnologica-sin-codigo/</link>

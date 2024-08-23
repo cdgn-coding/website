@@ -1,14 +1,13 @@
 ---
 title: "La nueva era tecnológica y su futuro sin código"
 date: "2024-07-04"
-# description: "An LSM Tree overview and Java implementation."
 toc: false
 readTime: true
 autonumber: true
 math: true
-# tags: ["database", "java"]
 showTags: false
 hideBackToTop: true
+draft: false
 ---
 
 Recientemente, Jensen Huang, CEO de NVIDIA, hizo una declaración que resonó profundamente en el mundo tecnológico. Aseguró que la era de necesitar programar está llegando a su fin y que tanto niños como adultos deberían enfocarse en aprender otras habilidades y en la re-capacitación, respectivamente. Esta afirmación, aunque provocativa, toca un punto crítico sobre el futuro de la educación y el desarrollo tecnológico.

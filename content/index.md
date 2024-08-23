@@ -4,18 +4,9 @@ title: Home
 
 # Hola, soy Carlos Nexans
 
-Comparto conocimiento programación e ingeniería de software, espcialmente [sobre la web](/que-hace-la-web-especial).
+Comparto conocimiento programación e ingeniería de software, **especialmente sobre la web**. En este sitio encontrarás **tutoriales y recursos**.
 
-<br />
+En el blog escribo **tendencias de tecnología** y discuto sobre el impacto que va a tener en el futuro.
 
-Te regalo estos recursos
-
-* [Apuntes de Python](/recursos/apuntes-python)
-* [Apuntes de algoritmos I]((/recursos/apuntes-algoritmos))
-
-En el blog escribo tendencias de tecnología y discuto sobre el [impacto que va a tener en el futuro](/posts/link-articulo).
-
-<br />
-
-Emprendo en proyectos [SaaS](/por-que-emprendo-saas) con los que busco mejorar la productividad y sostenibilidad de profesionales y negocios.
+Emprendo en proyectos **SaaS**, con los que busco impactar en la sostenibilidad y la productividad de la sociedad.
 
