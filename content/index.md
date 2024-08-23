@@ -1,9 +1,3 @@
----
-title: Hola, soy Carlos Nexans
-draft: false
-disableComments: true
----
-
 Comparto conocimiento programación e ingeniería de software, **especialmente sobre la web**. En este sitio encontrarás **tutoriales y recursos**.
 
 En el blog escribo **tendencias de tecnología** y discuto sobre el impacto que van a tener en el futuro.
