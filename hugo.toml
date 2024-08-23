@@ -12,6 +12,10 @@ tag = 'tags'
 # Google analytics code
 googleAnalytics = "G-27XYP663Z6"
 
+# posthog
+posthog = "PH-2J2QJQZQ"
+posthogEnabled = true
+
 [params]
 # Meta description
 description = "A Tech Blog"
