@@ -36,7 +36,7 @@ Pero no siempre fue así. Originalmente, la matemática era vista como un conjun
 
 Figuras históricas como Al-Juarismi, quien introdujo el álgebra, y Euclides, conocido por su énfasis en la lógica, expandieron nuestra comprensión de la matemática, llevándola mucho **más allá de su utilidad práctica inmediata**.
 
-![Al-Juarismi, el padre del álgebra](./al-juarismi.png)
+![Al-Juarismi, el padre del álgebra](/2024-07-04-nueva-era-tecnologica-sin-codigo/al-juarismi.png)
 
 Avanzando en el tiempo, tenemos la invención de máquinas capaces de realizar cálculos matemáticos, [como las propuestas por Babbage y Lovelace](https://www.themarginalian.org/2015/06/15/the-thrilling-adventures-of-lovelace-and-babbage-sydney-padua/), revolucionó nuestra capacidad de procesamiento de datos.
 
@@ -47,6 +47,10 @@ Hoy, tenemos [calculadoras avanzadas en el bolsillo de casi todos](https://news.
 Claramente, no.
 
 En su lugar, hemos encontrado un nuevo significado y aplicaciones para ella.
+
+<p style="text-align:center;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AHST5m31L3o?si=djfxGvLg_1FE56bM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</p>
 
 ## Realidad actual
 
@@ -61,10 +65,6 @@ Con plataformas como Blackwell y la arquitectura Hopper, NVIDIA está proponiend
 > Es nuestro trabajo crear tecnología de computación tal que nadie tenga que programar; y que el lenguaje de programación sea humano.
 
 Esta afirmación de Huang no sugiere el fin de la programación sino **una transformación en cómo interactuamos con las tecnologías** de programación y computación.
-
-<p style="text-align:center;">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/AHST5m31L3o?si=djfxGvLg_1FE56bM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</p>
 
 ## Implicaciones
 
