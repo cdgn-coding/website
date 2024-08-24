@@ -19,9 +19,9 @@ Además, afirmó que tanto niños como adultos deberían enfocarse en aprender o
 
 Esta afirmación, aunque provocativa, toca un punto crítico sobre el futuro de la educación y el desarrollo tecnológico.
 
-<p style="text-align:center;">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6Lcy2N3YcIs?si=xLgR8b4-_IjE2DAY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</p>
+<div class="youtube-embed">
+<iframe src="https://www.youtube.com/embed/6Lcy2N3YcIs?si=xLgR8b4-_IjE2DAY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 
 ## Un poco de contexto histórico
@@ -48,9 +48,9 @@ Claramente, no.
 
 En su lugar, hemos encontrado un nuevo significado y aplicaciones para ella.
 
-<p style="text-align:center;">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/AHST5m31L3o?si=djfxGvLg_1FE56bM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</p>
+<div class="youtube-embed">
+<iframe src="https://www.youtube.com/embed/AHST5m31L3o?si=djfxGvLg_1FE56bM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 ## Realidad actual
 
