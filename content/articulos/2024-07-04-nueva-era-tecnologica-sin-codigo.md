@@ -2,6 +2,7 @@
 title: "La nueva era tecnológica y su futuro sin código"
 date: "2024-07-04"
 toc: true
+description: "Explora cómo la inteligencia artificial y la evolución tecnológica están redefiniendo la programación. Descubre el futuro sin código y las implicaciones para la educación y el desarrollo tecnológico."
 readTime: true
 autonumber: true
 math: true
