@@ -11,6 +11,7 @@ tag = 'tags'
 
 # Google analytics code
 [params]
+defaultTheme = "light"
 googleAnalytics = "G-27XYP663Z6"
 
 # posthog
@@ -43,6 +44,11 @@ listDateFormat = '2 Jan 2006'
 
 # Breadcrumbs
 breadcrumbs = true
+
+[params.utteranc]
+repo = "cdgn-coding/website"
+issueTerm = "pathname"
+enable = true
 
 [params.comments]
 enable = true
