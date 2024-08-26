@@ -1,5 +1,5 @@
 ---
-title: "Concurrencia y paralelismo práctico en Node.js"
+title: "Concurrencia y paralelismo en Node.js"
 date: "2024-08-22"
 toc: true
 readTime: true
@@ -440,7 +440,7 @@ Los hilos, además de ejecutarse en paralelo, pueden compartir memoria dentro de
 
 Esta funcionalidad está disponible mediante la API de SharedArrayBuffer y Atomics. El primero nos permite reservar un espacio en la memoria, que será compartido entre distintos hijos trabajadores. El segundo habilita acceder de forma segura a ese espacio de memoria.
 
-Veamos un ejemplo de un contador atómico para ver su funcionamiento en alto nivel.
+Veamos un ejemplo de un contador atómico.
 
 {{< highlight javascript "linenos=table" >}}
 // Create a SharedArrayBuffer with a size in bytes
