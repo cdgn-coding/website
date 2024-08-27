@@ -84,8 +84,8 @@ Al ejecutar este programa, obtendrás la siguiente salida por consola
 Aquí ya podemos notar las características principales de los hilos trabajadores
 
 1. La plataforma se encarga de juntar la salida estándar de los hilos.
-2. El hilo principal queda libre durante la creación y ejecución del hilo.
-3. Es posible pasar tanto variables.
+2. El hilo principal queda libre durante durante la ejecución del hilo trabajador.
+3. Es posible pasar variables a los hilos trabajadores.
 
 ## Patrón productor-consumidor
 
