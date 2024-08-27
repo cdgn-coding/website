@@ -9,7 +9,7 @@ math: true
 showTags: false
 hideBackToTop: true
 draft: false
-tags: ["ia"]
+tags: ["trends", "ia"]
 ---
 
 ## La noticia

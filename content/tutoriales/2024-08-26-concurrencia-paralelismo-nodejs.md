@@ -8,6 +8,8 @@ math: true
 showTags: false
 hideBackToTop: true
 draft: false
+description: "En este artículo aprenderás como usar Node.js para ejecutar procesos intensos y distribuir la carga usando Worker Threads para aprovechar el CPU de forma efectiva. Además, entenderás como funciona la API de Worker Threads sin librerías y así ganarás un conocimiento más profundo sobre Node.js."
+tags: ["node.js", "javascript", "guides"]
 ---
 
 En este artículo aprenderás como usar Node.js para ejecutar procesos intensos y distribuir la carga usando Worker Threads, una funcionalidad de esta plataforma que te permite aprovechar el CPU de forma efectiva. Además, entenderás como funciona la API de Worker Threads sin librerías y así ganarás un conocimiento más profundo sobre Node.js.
