@@ -48,6 +48,9 @@ Por este motivo se acuña el término [Web 2.0](https://www.oreilly.com/pub/a/we
 
 Esta idea ha sido tan revolucionaria que hoy nos parece normal. Las personas crean contenido en internet y [usan redes sociales diariamente](https://es.statista.com/estadisticas/600712/ranking-mundial-de-redes-sociales-por-numero-de-usuarios/).
 
+![Usuarios activos de redes sociales en millones. Fuente: statista.com](/2024-24-08-que-hace-la-web-especial/millones-usuarios.png)
+
+
 La web se ha convertido en una tecnología de interacción tan importante, que cada vez más empresas dependen de ella para poder operar e interactuar con sus clientes.
 
 ## Un ecosistema en evolución
