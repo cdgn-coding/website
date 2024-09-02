@@ -6,7 +6,7 @@ title: Home
 
 <div class="home-content">
 
-Comparto conocimiento programación e ingeniería de software, **especialmente sobre la web**. En este sitio encontrarás [tutoriales y recursos](/tutoriales).
+Comparto conocimiento programación e ingeniería de software, [especialmente sobre la web](/articulos/2024-24-08-que-hace-la-web-especial). En este sitio encontrarás [tutoriales y recursos](/tutoriales).
 
 En el blog escribo sobre **tendencias de tecnología** y discuto sobre el impacto que van a tener en el futuro.
 
