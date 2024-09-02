@@ -81,7 +81,7 @@ Pero podemos estar seguros que el internet y la web estarán aquí, al menos, po
 
 Cada vez más hay más infraestructura humana conectada y funcionando mediante aplicaciones web. El conjunto de tecnologías y casos de uso sigue en evolución y descubrimiento.
 
-Para tecnólogos y emprendedores sigue siendo el lugar para crear la siguiente generación de servicios que empoderen a los usuarios.
+Para tecnólogos y emprendedores sigue siendo el lugar para crear la siguiente generación de servicios que empoderen a los usuarios del planeta entero.
 
 ## Lecturas recomendadas
 
