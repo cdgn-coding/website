@@ -35,7 +35,7 @@ Los arreglos y las cadenas de texto son estructuras de datos lineales que almace
 
 Los mapas de hash, también conocidos como tablas hash o diccionarios, son estructuras de datos que permiten almacenar pares clave-valor y acceder a ellos de manera eficiente. Son excelentes para búsquedas rápidas y eliminación de duplicados.
 
-* Nota de rescate
+* [Nota de rescate](/tutoriales/2024-09-03-150-problemas-de-leetcode-resoluciones/tablas-hash/notas-de-rescate)
 * Cadenas isomórficas
 * Patrón de palabras
 * Agrupar anagramas
@@ -102,7 +102,7 @@ La técnica de ventanas deslizantes implica mantener un subconjunto de elementos
 
 Los problemas de intervalos implican trabajar con rangos o períodos de tiempo. Estas técnicas son útiles para resolver problemas de programación, optimización de recursos y análisis de datos temporales.
 
-* Rangos de resumen
+* [Rangos de resumen](/tutoriales/2024-09-03-150-problemas-de-leetcode-resoluciones/intervalos/rangos-resumen)
 * Fusionar intervalos
 * Insertar intervalo
 * Número mínimo de flechas para reventar globos
@@ -126,12 +126,12 @@ Los grafos son estructuras de datos que consisten en vértices (nodos) y aristas
 
 Un árbol binario es una estructura de datos jerárquica donde cada nodo tiene como máximo dos hijos. Son útiles para representar jerarquías, tomar decisiones binarias y optimizar búsquedas.
 
-* [Iterador de árbol binario](/tutoriales/2024-09-03-150-problemas-de-leetcode-resoluciones/arboles-binarios/iterador-de-arbol-binario.md)
-* [Profundidad máxima de un árbol binario](/tutoriales/2024-09-03-150-problemas-de-leetcode-resoluciones/arboles-binarios/profundidad-maxima-de-un-arbol-binario.md)
+* [Iterador de árbol binario](/tutoriales/2024-09-03-150-problemas-de-leetcode-resoluciones/arboles-binarios/iterador-de-arbol-binario)
+* [Profundidad máxima de un árbol binario](/tutoriales/2024-09-03-150-problemas-de-leetcode-resoluciones/arboles-binarios/profundidad-maxima-de-un-arbol-binario)
 * Mismo árbol
 * Invertir árbol binario
 * Suma de camino
-* [Construir árbol binario a partir de recorridos preorden e inorden](/tutoriales/2024-09-03-150-problemas-de-leetcode-resoluciones/arboles-binarios/construir-a-partir-de-preorden-e-inorden.md)
+* [Construir árbol binario a partir de recorridos preorden e inorden](/tutoriales/2024-09-03-150-problemas-de-leetcode-resoluciones/arboles-binarios/construir-a-partir-de-preorden-e-inorden)
 * Construir árbol binario a partir de recorridos inorden y postorden
 * Aplanar árbol binario a lista enlazada
 * Suma máxima de camino en árbol binario
