@@ -8,6 +8,7 @@ math: true
 showTags: false
 hideBackToTop: true
 draft: false
+tags: ["internet"]
 ---
 
 ## Introducción

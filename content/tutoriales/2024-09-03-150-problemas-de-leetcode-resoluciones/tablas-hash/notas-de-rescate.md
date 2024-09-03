@@ -8,7 +8,7 @@ math: true
 showTags: false
 hideBackToTop: true
 draft: false
-tags: ["algoritmos", "hashmap"]
+tags: ["algoritmos", "tablas hash"]
 ---
 
 ## Descripción

@@ -9,7 +9,7 @@ showTags: false
 hideBackToTop: true
 draft: false
 description: "Problemas de algoritmos resueltos con explicación para entrevistas de trabajo en programación"
-tags: ["algoritmos", "entrevistas"]
+tags: ["algoritmos"]
 ---
 
 Esta lista es una recopilación viva de problemas de algoritmos, curada para pruebas técnicas y para mejorar como programador.

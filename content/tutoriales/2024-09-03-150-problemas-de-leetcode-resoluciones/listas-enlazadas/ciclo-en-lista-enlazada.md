@@ -8,7 +8,7 @@ math: true
 showTags: false
 hideBackToTop: true
 draft: false
-tags: ["algoritmos", "entrevistas", "listas enlazadas"]
+tags: ["algoritmos"]
 ---
 
 ## Descripción
