@@ -30,11 +30,11 @@ Las redes de transmisión de datos, las señales de comunicación en tiempo real
 
 La primera descripción del internet se remonta al 1962, en [una serie de memos](https://en.wikipedia.org/wiki/Intergalactic_Computer_Network) de un profesor del MIT que mencionan una *Red Galáctica*.
 
-En esta red, las personas podrían acceder de forma rápida a datos en cualquier sitio, a través de un conjunto de computadoras conectadas.
+En esta red, las personas podrían acceder a datos de forma rápida en cualquier sitio, a través de un conjunto de computadoras conectadas.
 
-Lo que hace al internet diferente  es que en lugar de diseñar, *arbitrariamente*, una red de comunicación, habría múltiples redes autónomas conectadas.
+Lo que hace al internet diferente de sus ancestros tecnológicos es que, en lugar de diseñar *arbitrariamente* una red de comunicación, habría múltiples redes autónomas conectadas.
 
-Esta *red de redes* se materializa a través de un sistema automatizado que codifica, protege y transporta la información más allá de las fronteras; salvo [algunas excepciones](https://es.wikipedia.org/wiki/Internet_en_Corea_del_Norte).
+Esta *red de redes* se logra materializar a través de un sistema automatizado que codifica, protege y transporta la información más allá de las fronteras.
 
 Este sistema, además permite enlazar información a través de lo que llamamos hipertexto, creando no solo una red de comunicación, sino una **red de conocimiento**.
 
@@ -57,15 +57,15 @@ La web se ha convertido en una tecnología de interacción tan importante, que c
 
 El internet no se mantiene estático aún hoy. La web está en desarrollo y evolución constante.
 
-La IETF reúne el esfuerzo de empresas y profesionales que para crear [especificaciones de seguridad](https://datatracker.ietf.org/doc/html/rfc7519) y [mejoras](https://datatracker.ietf.org/doc/html/rfc6455) a los protocolos existentes e incluso [nuevos protocolos](https://datatracker.ietf.org/doc/html/rfc9114) de comunicación.
+La IETF reúne el esfuerzo de empresas y profesionales para crear [especificaciones de seguridad](https://datatracker.ietf.org/doc/html/rfc7519) y [mejoras](https://datatracker.ietf.org/doc/html/rfc6455) a los protocolos existentes e incluso [nuevos protocolos](https://datatracker.ietf.org/doc/html/rfc9114) de comunicación.
 
-La [W3C](https://www.w3.org/), por su parte trabaja en los estándares como el HTML, CSS y ECMA trabaja en la [especificación](https://ecma-international.org/technical-committees/tc39/) de lo que llamamos Javascript.
+La [W3C](https://www.w3.org/), por su parte trabaja en los estándares del hipertexto y ECMA en la [especificación](https://ecma-international.org/technical-committees/tc39/) de lo que llamamos Javascript.
 
 Es así como la tecnología de fondo que llamamos internet es cada día más segura y accesible.
 
-Si no fuera suficiente, la web parece agregar nuevos paradigmas. Por un lado, cada vez tiene más relevancia el internet de las cosas (IoT), resultando que hay [más dispositivos conectados](https://es.statista.com/temas/9795/el-uso-de-internet-en-el-mundo/#editorsPicks) a internet que seres humanos.
+Si no fuera suficiente, la web parece agregar nuevos paradigmas.
 
-> Hay el triple de dispositivos que de usuarios conectados a internet
+Por un lado, cada vez tiene más relevancia el internet de las cosas (IoT), resultando que hay [más dispositivos conectados](https://es.statista.com/temas/9795/el-uso-de-internet-en-el-mundo/#editorsPicks) a internet que seres humanos.
 
 Esto está cambiando industrias enteras: desde la domótica hasta la manufactura de productos.
 
