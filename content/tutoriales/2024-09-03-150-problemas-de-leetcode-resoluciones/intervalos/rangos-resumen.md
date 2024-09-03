@@ -34,7 +34,9 @@ Cada rango `[a,b]` en la lista debe ser presentado como:
 **Explicación**
 
 `[0,2] --> "0->2"`
+
 `[4,5] --> "4->5"`
+
 `[7,7] --> "7"`
 
 ## Solución
