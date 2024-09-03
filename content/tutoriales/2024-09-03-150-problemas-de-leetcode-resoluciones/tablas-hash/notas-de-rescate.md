@@ -1,6 +1,6 @@
 ---
 title: "Nota de Rescate"
-date: "2024-09-3"
+date: "2023-09-03"
 toc: true
 readTime: true
 autonumber: true
