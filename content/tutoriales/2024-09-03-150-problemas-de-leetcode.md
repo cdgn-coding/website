@@ -126,6 +126,7 @@ Los grafos son estructuras de datos que consisten en vértices (nodos) y aristas
 
 Un árbol binario es una estructura de datos jerárquica donde cada nodo tiene como máximo dos hijos. Son útiles para representar jerarquías, tomar decisiones binarias y optimizar búsquedas.
 
+* Iterador de árbol binario
 * Profundidad máxima de un árbol binario
 * Mismo árbol
 * Invertir árbol binario
