@@ -131,7 +131,7 @@ Un árbol binario es una estructura de datos jerárquica donde cada nodo tiene c
 * Mismo árbol
 * Invertir árbol binario
 * Suma de camino
-* Construir árbol binario a partir de recorridos preorden e inorden
+* [Construir árbol binario a partir de recorridos preorden e inorden](/tutoriales/2024-09-03-150-problemas-de-leetcode-resoluciones/arboles-binarios/construir-a-partir-de-preorden-e-inorden.md)
 * Construir árbol binario a partir de recorridos inorden y postorden
 * Aplanar árbol binario a lista enlazada
 * Suma máxima de camino en árbol binario
