@@ -47,4 +47,4 @@ Esta implementación tiene una complejidad de tiempo O(n)
 ## Enlaces
 
 * [Problema original en LeetCode](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
-* [Código de la solución en Github](https://github.com/cdgn-coding/leetcode-practice-guide/blob/main/binary_tree/max_depth/index.md)
+* [Código de la solución en Github](https://github.com/cdgn-coding/leetcode-practice-guide/blob/main/binary_tree/max_depth)

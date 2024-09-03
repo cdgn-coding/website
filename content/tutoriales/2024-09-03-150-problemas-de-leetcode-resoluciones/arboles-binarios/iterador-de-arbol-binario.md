@@ -53,4 +53,4 @@ Esta implementación logra un tiempo promedio de O(1) para `next()` y `hasNext()
 ## Enlaces
 
 * [Problema original en LeetCode](https://leetcode.com/problems/binary-search-tree-iterator)
-* [Código de la solución en Github](https://github.com/cdgn-coding/leetcode-practice-guide/blob/main/binary_tree/binary_tree_iterator/index.md)
+* [Código de la solución en Github](https://github.com/cdgn-coding/leetcode-practice-guide/blob/main/binary_tree/binary_tree_iterator)
