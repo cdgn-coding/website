@@ -11,8 +11,6 @@ draft: false
 tags: ["algoritmos", "entrevistas"]
 ---
 
-# Binary Search Tree (BST) Iterator
-
 ## Descripción
 
 Implementa una clase `BSTIterator` que permita recorrer un árbol binario de búsqueda (BST) en orden. La clase debe tener los siguientes métodos:
@@ -47,7 +45,7 @@ La solución óptima utiliza una pila para almacenar nodos.
    - Sacar el nodo superior de la pila.
    - Apilar todos los nodos del camino más izquierdo del subárbol derecho del nodo sacado.
    - Devolver el valor del nodo sacado.
-   
+
 3. `hasNext()`: Comprobar si la pila no está vacía.
 
 Esta implementación logra un tiempo promedio de O(1) para `next()` y `hasNext()`, y usa O(h) de memoria, donde h es la altura del árbol.
