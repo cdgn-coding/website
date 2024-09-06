@@ -27,20 +27,21 @@ Las estructuras de datos fundamentales son los bloques de construcción básicos
 Los arreglos y las cadenas de texto son estructuras de datos lineales que almacenan elementos en posiciones contiguas de memoria. Son fundamentales en la programación y se utilizan en una amplia variedad de algoritmos.
 
 * [Ordenamiento por mezcla (Merge sort)](/tutoriales/2024-09-03-150-problemas-de-leetcode-resoluciones/arreglos-y-cadenas/ordenamiento-por-mezcla-merge-sort)
-* Eliminar elemento
+<!-- * Eliminar elemento
 * Eliminar duplicados de un arreglo ordenado
-* Eliminar duplicados de un arreglo ordenado II
+* Eliminar duplicados de un arreglo ordenado II -->
 
 ### Mapas de hash
 
 Los mapas de hash, también conocidos como tablas hash o diccionarios, son estructuras de datos que permiten almacenar pares clave-valor y acceder a ellos de manera eficiente. Son excelentes para búsquedas rápidas y eliminación de duplicados.
 
 * [Nota de rescate](/tutoriales/2024-09-03-150-problemas-de-leetcode-resoluciones/tablas-hash/notas-de-rescate)
-* Cadenas isomórficas
+<!-- * Cadenas isomórficas
 * Patrón de palabras
 * Agrupar anagramas
-* Secuencia consecutiva más larga
+* Secuencia consecutiva más larga -->
 
+<!--
 ### Matrices
 
 Las matrices son estructuras de datos bidimensionales que organizan elementos en filas y columnas. Son útiles para representar datos tabulares, imágenes y problemas geométricos.
@@ -98,14 +99,19 @@ La técnica de ventanas deslizantes implica mantener un subconjunto de elementos
 * Subcadena con concatenación de todas las palabras
 * Ventana mínima que contiene subcadena
 
+-->
+
 ### Intervalos
 
 Los problemas de intervalos implican trabajar con rangos o períodos de tiempo. Estas técnicas son útiles para resolver problemas de programación, optimización de recursos y análisis de datos temporales.
 
 * [Rangos de resumen](/tutoriales/2024-09-03-150-problemas-de-leetcode-resoluciones/intervalos/rangos-resumen)
-* Fusionar intervalos
+<!-- * Fusionar intervalos
 * Insertar intervalo
-* Número mínimo de flechas para reventar globos
+* Número mínimo de flechas para reventar globos -->
+
+
+<!--
 
 ### Búsqueda binaria
 
@@ -118,6 +124,8 @@ La búsqueda binaria es un algoritmo eficiente para encontrar un elemento en una
 * Encontrar primera y última posición en arreglo ordenado
 * Encontrar mediana de dos arreglos ordenados
 
+-->
+
 ## Grafos
 
 Los grafos son estructuras de datos que consisten en vértices (nodos) y aristas que conectan estos vértices. Son útiles para modelar relaciones entre objetos y resolver problemas de conectividad, rutas y flujos.
@@ -128,13 +136,15 @@ Un árbol binario es una estructura de datos jerárquica donde cada nodo tiene c
 
 * [Iterador de árbol binario](/tutoriales/2024-09-03-150-problemas-de-leetcode-resoluciones/arboles-binarios/iterador-de-arbol-binario)
 * [Profundidad máxima de un árbol binario](/tutoriales/2024-09-03-150-problemas-de-leetcode-resoluciones/arboles-binarios/profundidad-maxima-de-un-arbol-binario)
-* Mismo árbol
+<!-- * Mismo árbol
 * Invertir árbol binario
-* Suma de camino
+* Suma de camino -->
 * [Construir árbol binario a partir de recorridos preorden e inorden](/tutoriales/2024-09-03-150-problemas-de-leetcode-resoluciones/arboles-binarios/construir-a-partir-de-preorden-e-inorden)
-* Construir árbol binario a partir de recorridos inorden y postorden
+<!-- * Construir árbol binario a partir de recorridos inorden y postorden
 * Aplanar árbol binario a lista enlazada
-* Suma máxima de camino en árbol binario
+* Suma máxima de camino en árbol binario -->
+
+<!--
 
 ### Grafos en general
 
@@ -157,13 +167,18 @@ El recorrido en anchura (BFS) es un algoritmo para explorar grafos o árboles ni
 * Vista derecha de árbol binario
 * Zigzag de árbol binario
 
+-->
+
 ### Árboles binarios de búsqueda
 
 Un árbol binario de búsqueda (BST) es un tipo especial de árbol binario donde los nodos están ordenados de manera que facilita la búsqueda, inserción y eliminación eficientes.
 
-* Diferencia absoluta mínima en BST
-* K-ésimo elemento más pequeño en un BST
-* Validar árbol binario de búsqueda
+* [Diferencia absoluta mínima en BST](/tutoriales/2024-09-03-150-problemas-de-leetcode-resoluciones/arboles-binarios-busqueda/diferencia-minima.md)
+<!-- * K-ésimo elemento más pequeño en un BST
+* Validar árbol binario de búsqueda -->
+
+
+<!--
 
 ## Estructuras avanzadas
 
@@ -258,3 +273,5 @@ Los problemas matemáticos en programación a menudo requieren la aplicación de
 * Raíz cuadrada(x)
 * Potencia(x, n)
 * Máximo de puntos en una línea
+
+-->
