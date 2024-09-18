@@ -10,7 +10,7 @@ Comparto conocimiento programación e ingeniería de software, [especialmente so
 
 En el blog escribo sobre **tendencias de tecnología** y discuto sobre el impacto que van a tener en el futuro.
 
-Emprendo en proyectos **SaaS**, con los que busco impactar en la sostenibilidad y la productividad de la sociedad.
+Emprendo en proyectos **SaaS**, con los que busco impactar en la sostenibilidad y la productividad de la sociedad. Cómo [revamos.com.ar](https://revamos.com.ar) y [planify.la](https://planify.la).
 
 </div>
 
