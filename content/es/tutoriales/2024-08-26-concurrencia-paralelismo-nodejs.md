@@ -1,5 +1,6 @@
 ---
 title: "Concurrencia y paralelismo en Node.js"
+slug: "concurrencia-paralelismo-nodejs"
 date: "2024-08-22"
 toc: true
 readTime: true

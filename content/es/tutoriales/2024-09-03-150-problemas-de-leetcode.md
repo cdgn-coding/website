@@ -1,5 +1,6 @@
 ---
 title: "Problemas de algoritmos para entrevistas"
+slug: "problemas-leetcode"
 date: "2024-08-22"
 toc: false
 readTime: true

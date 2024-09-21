@@ -1,10 +1,54 @@
 baseURL = 'https://example.org/'
-languageCode = 'es-es'
-defaultContentLanguage = "es"
-defaultContentLang = "es"
-title = 'Carlos Nexans'
 sectionPagesMenu = 'main'
 theme = "nxtypo"
+languageCode = 'es-es'
+defaultContentLanguage = "es"
+defaultContentLanguageInSubdir = true
+[languages]
+  [languages.es]
+    contentDir = 'content/es'
+    disabled = false
+    languageCode = 'es-ES'
+    languageDirection = 'ltr'
+    languageName = 'Español'
+    weight = 1
+    title = 'Carlos Nexans'
+    [languages.es.params]
+      # Collection to display on home
+      homeCollectionTitle = 'Ultimas publicaciones'
+      homeCollection = 'articulos'
+      # Main menu pages
+      [[languages.es.params.menu]]
+      name = "Home"
+      url = "/"
+      [[languages.es.params.menu]]
+      name = "Blog"
+      url = "/articulos"
+      [[languages.es.params.menu]]
+      name = "Tutoriales"
+      url = "/tutoriales"
+  [languages.en]
+    contentDir = 'content/en'
+    disabled = false
+    languageCode = 'en-US'
+    languageDirection = 'ltr'
+    languageName = 'English'
+    weight = 2
+    title = 'Carlos Nexans'
+    [languages.en.params]
+      # Collection to display on home
+      homeCollectionTitle = 'Latests articles'
+      homeCollection = 'articles'
+      # Main menu pages
+      [[languages.en.params.menu]]
+      name = "Home"
+      url = "/en"
+      [[languages.en.params.menu]]
+      name = "Blog"
+      url = "/en/articles"
+      [[languages.en.params.menu]]
+      name = "Tutorials"
+      url = "/en/tutorials"
 
 [taxonomies]
 tag = 'tags'
@@ -19,7 +63,7 @@ posthog = "phc_V86sv23tZmpoIKoMxp8E9nd3w3BxMM5vw5GYtZlOXrY"
 posthogEnabled = true
 
 # Meta description
-description = "A Tech Blog"
+description = "Website y blog de tecnología de Carlos Nexans"
 
 # Appearance settings
 theme = 'auto'
@@ -33,10 +77,6 @@ hideHeader = false
 #I am interested in a range of topics, including algorithms, distributed systems, databases, and information retrieval.
 #"""
 
-# Collection to display on home
-homeCollectionTitle = 'Ultimas publicaciones'
-homeCollection = 'articulos'
-
 # Lists parameters
 paginationSize = 10
 listSummaries = false
@@ -44,7 +84,6 @@ listDateFormat = '2 Jan 2006'
 
 # Breadcrumbs
 breadcrumbs = true
-
 mermaid = true
 
 [params.utteranc]
@@ -71,21 +110,6 @@ url = "https://github.com/cdgn-coding"
 [[params.social]]
 name = "x"
 url = "https://x.com/techycarlos"
-
-[[params.social]]
-
-# Main menu pages
-[[params.menu]]
-name = "Home"
-url = "/"
-
-[[params.menu]]
-name = "Blog"
-url = "/articulos"
-
-[[params.menu]]
-name = "Tutoriales"
-url = "/tutoriales"
 
 # Syntax highligth on code blocks
 [markup]

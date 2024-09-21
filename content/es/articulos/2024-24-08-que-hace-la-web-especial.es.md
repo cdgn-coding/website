@@ -1,5 +1,6 @@
 ---
 title: "Qué hace la web especial"
+slug: "que-hace-la-web-especial"
 date: "2024-08-22"
 toc: true
 readTime: true
