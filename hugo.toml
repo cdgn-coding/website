@@ -23,10 +23,10 @@ defaultContentLanguageInSubdir = true
       url = "/"
       [[languages.es.params.menu]]
       name = "Blog"
-      url = "/articulos"
+      url = "/es/articulos"
       [[languages.es.params.menu]]
       name = "Tutoriales"
-      url = "/tutoriales"
+      url = "/es/tutoriales"
   [languages.en]
     contentDir = 'content/en'
     disabled = false
