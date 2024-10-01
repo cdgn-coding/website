@@ -23,7 +23,7 @@ Data structure that arranges data sequentially in contiguous memory.
 - O(n) random insert/delete
 - O(n) lookup
 
-```python
+{{< highlight python "linenos=table" >}}
 mylist = [1,2,3]
 size = len(mylist)
 
@@ -35,18 +35,18 @@ for index, val in enumerate(mylist):
 	
 mylist.append(4) # -> [1,2,3,4]
 mylist.extend([5,6]) # -> [1,2,3,4,5,6]
-```
+{{< / highlight >}}
 
 ## Sorting
 
 Sorting is the process of rearranging the data in an array, so it is stored in ascending or descending order. Many algorithms for sorting exist, but best complexity is O(nlogn).
 
-```python
+{{< highlight python "linenos=table" >}}
 # Built-in implementation of sorting
 mylist.sort()
 
 mylist.sort(key = lambda x: x[0])
-```
+{{< / highlight >}}
 
 ### Quicksort
 
@@ -56,7 +56,7 @@ This technique uses divide and conquer to divide the problem into smaller subpro
 
 - O(nlogn) - complexity
 
-```python
+{{< highlight python "linenos=table" >}}
 def quickSort(arr):
     if len(arr) <= 1:
         return arr
@@ -79,7 +79,7 @@ def quickSort(arr):
     # Recursively sort the left and right parts
     return quickSort(less_than_pivot) + equal_to_pivot + quickSort(greater_than_pivot)
 
-```
+{{< / highlight >}}
 
 ### Merge Sort
 
@@ -89,7 +89,7 @@ This algorithm uses a divide and conquer technique and it works very well becaus
 
 - O(nlogn) - complexity
 
-```python
+{{< highlight python "linenos=table" >}}
 def merge(arr1, arr2):
 	result = []
 	i = j = 0
@@ -112,7 +112,7 @@ def mergeSort(arr):
 	left = mergeSort(arr[:mid])
 	right = mergeSort(arr[mid:])
 	return merge(left, right)
-```
+{{< / highlight >}}
 
 ### Binary Search
 
@@ -124,7 +124,7 @@ This technique uses a divide and conquer approach to reduce the space of lookup 
 
 If the item is not found, the item should be in the position anotated with left.
 
-```python
+{{< highlight python "linenos=table" >}}
 def binarySearch(arr, value):
 	if len(arr) == 0: return -1
 	left, right = 0, len(arr) - 1
@@ -137,24 +137,24 @@ def binarySearch(arr, value):
 		else:
 			return pivot
 	return -1
-```
+{{< / highlight >}}
 
 ### Two pointers
 
 Technique to traverse an array and find a subarray, it is useful in problems where the naive solution is a double loop. Common problems are related to subarrays or intervals, leveraging a sorted array.
 
-```python
+{{< highlight python "linenos=table" >}}
 # Find sub array with two pointers
 left, right = 0, len(mylist) - 1
 while left < right:
 	pass
-```
+{{< / highlight >}}
 
 ### Intervals
 
 Intervals represent ranges defined by a start and end point, commonly used in scheduling and range problems. A common approach is to **sort intervals** by start or end times to simplify comparisons and reduce time complexity.
 
-```python
+{{< highlight python "linenos=table" >}}
 def merge_intervals(intervals):
 		# Sort intervals by start
     intervals.sort(key=lambda x: x[0])
@@ -170,7 +170,7 @@ def merge_intervals(intervals):
         else:
             merged.append(curr)
     return merged
-```
+{{< / highlight >}}
 
 ## Linked List
 
@@ -178,7 +178,7 @@ A LinkedList is a data structure that stores elements sequentially, but with nod
 
 LinkedLists allow efficient insertion/deletion at both ends but do not support indexed access.
 
-```python
+{{< highlight python "linenos=table" >}}
 class ListNode:
 	def __init__(self, value):
 		self.value = value
@@ -187,18 +187,18 @@ class ListNode:
 head = ListNode(0)
 head.next_node = ListNode(1)
 head.next_node.next_node = ListNode(3)
-```
+{{< / highlight >}}
 
 Linked list can be doubly linked and store a pointer to the previous element too. 
 
 To iterate through a list, it can check next nodes until it can’t.
 
-```python
+{{< highlight python "linenos=table" >}}
 curr = head
 while curr != None:
 	# Process value
 	curr = curr.next_node
-```
+{{< / highlight >}}
 
 ### Stack and Queue
 
@@ -207,7 +207,7 @@ These are data structures focused in accessing one end. Stack is a Last-in First
 - O(1) - add or remove from the ends
 - O(n) - lookup and indexed access
 
-```python
+{{< highlight python "linenos=table" >}}
 from collections import deque
 
 queue = deque()
@@ -219,7 +219,7 @@ stack = deque()
 stack.append(1)
 stack.append(2)
 stack.pop() # -> 2
-```
+{{< / highlight >}}
 
 ## Hashmap
 
@@ -228,7 +228,7 @@ Hashmap is a data structure that stores key/value pairs. The values can be effic
 - O(1) - read and write if key is provided
 - O(n) - if key is not provided
 
-```python
+{{< highlight python "linenos=table" >}}
 hashmap = {}
 hashmap['key'] = 'value'
 
@@ -241,7 +241,7 @@ hashmap['key'] # -> value
 for key, value in hashmap.items(): pass
 for key in hashmap.values(): pass
 for key in hashmap: pass
-```
+{{< / highlight >}}
 
 ### Hashset
 
@@ -250,7 +250,7 @@ It’s a special case of hashmap in which the values are of type booleans. This 
 - O(1) - read and write a particular value
 - O(n) - most of the set operations
 
-```python
+{{< highlight python "linenos=table" >}}
 A = set([1,2,3])
 1 in A # -> true
 4 in A # -> false
@@ -262,7 +262,7 @@ AuB = A.union(B)
 
 AnB = A.intersection(B)
 # -> {3}
-```
+{{< / highlight >}}
 
 ### Ordered Dictionary
 
@@ -270,7 +270,7 @@ Regular dictionaries do not guarantee any particular order when iterating its va
 
 This is achieved by using additional memory to store the insertion order, typically using a linked list.
 
-```python
+{{< highlight python "linenos=table" >}}
 from collections import OrderedDict
 
 # Creating an OrderedDict
@@ -282,7 +282,7 @@ ordered_dict['c'] = 3
 # Iterating over the OrderedDict
 for key, value in ordered_dict.items():
     print(key, value)
-```
+{{< / highlight >}}
 
 ## Priority Queue
 
@@ -293,7 +293,7 @@ This data structure is commonly implemented with heaps, a special type of binary
 - O(1) - read highest priority element
 - O(logn) - insert or delete an element
 
-```python
+{{< highlight python "linenos=table" >}}
 import heapq
 
 pq = []
@@ -307,7 +307,7 @@ heapq.heappop(pq)
 # -> (0, David)
 heapq.heappop(pq)
 # -> (1, Charly)
-```
+{{< / highlight >}}
 
 ## Bitmaps
 
@@ -316,7 +316,7 @@ Data structure that efficiently stores bit values in an array, the bits can repr
 - O(1) - write and read a binary value
 - O(1) - algebra of sets
 
-```python
+{{< highlight python "linenos=table" >}}
 # Can be initialized as integer too.
 bitmap = 0b0000
 
@@ -352,7 +352,7 @@ A & ~B
 # Check all bits
 numBits = 4
 A & ((1 << numBits) - 1)
-```
+{{< / highlight >}}
 
 ## Graphs
 
@@ -362,7 +362,7 @@ Data structure that arranges data in terms of its relations.
 
 Graph data structure that arranges data in hierarchical format and has no cycles. It is often represented as class with recursive pointers to its children.
 
-```python
+{{< highlight python "linenos=table" >}}
 class Node:
 	def __init__(self, val):
 		self.val = val
@@ -371,13 +371,13 @@ class Node:
 root = Node(0)
 child = Node(1)
 root.children.append(child)
-```
+{{< / highlight >}}
 
 ### Binary Tree
 
 It is an special case of a tree where each node has at most 2 children. This data structure is usually represented with left and right children.
 
-```python
+{{< highlight python "linenos=table" >}}
 class Node:
 	def __init__(self, val):
 		self.val = val
@@ -386,7 +386,7 @@ class Node:
 
 root = Node(0)
 root.left = Node(1)
-```
+{{< / highlight >}}
 
 ### Depth-First Search
 
@@ -399,7 +399,7 @@ When traversing a tree, the process of the value can occur before visiting the r
     - O(n) - worst case memory complexity, if the tree is skewed
     - O(logn) -  memory complexity if the tree is balanced
 
-```python
+{{< highlight python "linenos=table" >}}
 # Iterative implementation of DFS
 stack = []
 # Add the root node to the stack
@@ -426,7 +426,7 @@ def DFS(node):
 
 # Start by traversing the root
 DFS(root)
-```
+{{< / highlight >}}
 
 ### Breadth-First Search
 
@@ -434,7 +434,7 @@ Also called BFS is a technique to traverse a graph or tree in levels. It can be 
 
 - O(n) - time complexity
 
-```python
+{{< highlight python "linenos=table" >}}
 from collections import deque
 # Iterative implementation of DFS
 queue = deque()
@@ -451,13 +451,13 @@ while queue:
 	if curr.right: stack.append(curr.right)
 	
 	# Process here if Post-order traversal
-```
+{{< / highlight >}}
 
 ### Backtracking
 
 An algorithmic technique to traverse and array and process not only the value but the path taken to the value. This is specially useful modeling decisions as tree and comparing outcomes, for example in games.
 
-```python
+{{< highlight python "linenos=table" >}}
 stack = []
 # Add an empty array as the path and the root node
 stack.append(([], root)
@@ -469,11 +469,11 @@ while stack:
 		stack.append((path + [curr.val], curr.left)
 	if curr.right:
 		stack.append((path + [curr.val], curr.right)
-```
+{{< / highlight >}}
 
 Backtracking can be also implemented in a recursive manner, and sometimes can be a little easier to think of this algorithm this way. 
 
-```python
+{{< highlight python "linenos=table" >}}
 def BacktrackingWithDFS(path, node):
 	# Process end of graph
 	if not node: return
@@ -484,4 +484,4 @@ def BacktrackingWithDFS(path, node):
 	BacktrackingWithDFS(path + [node.val], node.right)
 
 BacktrackingWithDFS([], root)
-```
+{{< / highlight >}}

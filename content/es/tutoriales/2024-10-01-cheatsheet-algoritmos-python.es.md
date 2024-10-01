@@ -23,7 +23,7 @@ Estructura de datos que organiza los datos secuencialmente en memoria contigua.
 - O(n) inserción/eliminación aleatoria
 - O(n) búsqueda
 
-```python
+{{< highlight python "linenos=table" >}}
 mylist = [1,2,3]
 size = len(mylist)
 
@@ -35,18 +35,18 @@ for index, val in enumerate(mylist):
 	
 mylist.append(4) # -> [1,2,3,4]
 mylist.extend([5,6]) # -> [1,2,3,4,5,6]
-```
+{{< / highlight >}}
 
 ## Ordenación
 
 La ordenación es el proceso de reorganizar los datos en un array para que estén almacenados en orden ascendente o descendente. Existen muchos algoritmos de ordenación, pero la mejor complejidad es O(nlogn).
 
-```python
+{{< highlight python "linenos=table" >}}
 # Implementación incorporada de ordenación
 mylist.sort()
 
 mylist.sort(key = lambda x: x[0])
-```
+{{< / highlight >}}
 
 ### Quicksort
 
@@ -56,7 +56,7 @@ Esta técnica utiliza divide y vencerás para dividir el problema en subproblema
 
 - O(nlogn) - complejidad
 
-```python
+{{< highlight python "linenos=table" >}}
 def quickSort(arr):
     if len(arr) <= 1:
         return arr
@@ -78,7 +78,7 @@ def quickSort(arr):
 
     # Recursively sort the left and right parts
     return quickSort(less_than_pivot) + equal_to_pivot + quickSort(greater_than_pivot)
-```
+{{< / highlight >}}
 
 ### Merge Sort
 
@@ -88,7 +88,7 @@ Este algoritmo utiliza una técnica de divide y vencerás y funciona muy bien po
 
 - O(nlogn) - complejidad
 
-```python
+{{< highlight python "linenos=table" >}}
 def merge(arr1, arr2):
 	result = []
 	i = j = 0
@@ -111,7 +111,7 @@ def mergeSort(arr):
 	left = mergeSort(arr[:mid])
 	right = mergeSort(arr[mid:])
 	return merge(left, right)
-```
+{{< / highlight >}}
 
 ### Búsqueda Binaria
 
@@ -123,7 +123,7 @@ Esta técnica utiliza un enfoque de divide y vencerás para reducir el espacio d
 
 Si el elemento no se encuentra, debería estar en la posición anotada con left.
 
-```python
+{{< highlight python "linenos=table" >}}
 def binarySearch(arr, value):
 	if len(arr) == 0: return -1
 	left, right = 0, len(arr) - 1
@@ -136,24 +136,24 @@ def binarySearch(arr, value):
 		else:
 			return pivot
 	return -1
-```
+{{< / highlight >}}
 
 ### Dos punteros
 
 Técnica para recorrer un array y encontrar un subarray, es útil en problemas donde la solución ingenua es un doble bucle. Los problemas comunes están relacionados con subarrays o intervalos, aprovechando un array ordenado.
 
-```python
+{{< highlight python "linenos=table" >}}
 # Encontrar subarray con dos punteros
 left, right = 0, len(mylist) - 1
 while left < right:
 	pass
-```
+{{< / highlight >}}
 
 ### Intervalos
 
 Los intervalos representan rangos definidos por un punto de inicio y fin, comúnmente utilizados en problemas de programación y rangos. Un enfoque común es **ordenar los intervalos** por tiempos de inicio o fin para simplificar las comparaciones y reducir la complejidad temporal.
 
-```python
+{{< highlight python "linenos=table" >}}
 def merge_intervals(intervals):
 		# Sort intervals by start
     intervals.sort(key=lambda x: x[0])
@@ -169,7 +169,7 @@ def merge_intervals(intervals):
         else:
             merged.append(curr)
     return merged
-```
+{{< / highlight >}}
 
 ## Lista Enlazada
 
@@ -177,7 +177,7 @@ Una Lista Enlazada es una estructura de datos que almacena elementos secuencialm
 
 Las Listas Enlazadas permiten una inserción/eliminación eficiente en ambos extremos, pero no admiten acceso indexado.
 
-```python
+{{< highlight python "linenos=table" >}}
 class ListNode:
 	def __init__(self, value):
 		self.value = value
@@ -186,18 +186,18 @@ class ListNode:
 head = ListNode(0)
 head.next_node = ListNode(1)
 head.next_node.next_node = ListNode(3)
-```
+{{< / highlight >}}
 
 La lista enlazada puede ser doblemente enlazada y almacenar también un puntero al elemento anterior.
 
 Para iterar a través de una lista, se pueden comprobar los nodos siguientes hasta que no se pueda.
 
-```python
+{{< highlight python "linenos=table" >}}
 curr = head
 while curr != None:
 	# Process value
 	curr = curr.next_node
-```
+{{< / highlight >}}
 
 ### Pila y Cola
 
@@ -206,7 +206,7 @@ Estas son estructuras de datos enfocadas en acceder a un extremo. La Pila es una
 - O(1) - añadir o eliminar de los extremos
 - O(n) - búsqueda y acceso indexado
 
-```python
+{{< highlight python "linenos=table" >}}
 from collections import deque
 
 queue = deque()
@@ -218,7 +218,7 @@ stack = deque()
 stack.append(1)
 stack.append(2)
 stack.pop() # -> 2
-```
+{{< / highlight >}}
 
 ## Mapa de hash
 
@@ -227,7 +227,7 @@ El mapa de hash es una estructura de datos que almacena pares clave/valor. Los v
 - O(1) - lectura y escritura si se proporciona la clave
 - O(n) - si no se proporciona la clave
 
-```python
+{{< highlight python "linenos=table" >}}
 hashmap = {}
 hashmap['key'] = 'value'
 
@@ -240,7 +240,7 @@ hashmap['key'] # -> value
 for key, value in hashmap.items(): pass
 for key in hashmap.values(): pass
 for key in hashmap: pass
-```
+{{< / highlight >}}
 
 ### Conjunto de hash
 
@@ -249,7 +249,7 @@ Es un caso especial de mapa de hash en el que los valores son de tipo booleano. 
 - O(1) - leer y escribir un valor particular
 - O(n) - la mayoría de las operaciones de conjuntos
 
-```python
+{{< highlight python "linenos=table" >}}
 A = set([1,2,3])
 1 in A # -> true
 4 in A # -> false
@@ -261,7 +261,7 @@ AuB = A.union(B)
 
 AnB = A.intersection(B)
 # -> {3}
-```
+{{< / highlight >}}
 
 ### Diccionario Ordenado
 
@@ -269,7 +269,7 @@ Los diccionarios regulares no garantizan ningún orden particular al iterar sus 
 
 Esto se logra utilizando memoria adicional para almacenar el orden de inserción, típicamente usando una lista enlazada.
 
-```python
+{{< highlight python "linenos=table" >}}
 from collections import OrderedDict
 
 # Creating an OrderedDict
@@ -281,7 +281,7 @@ ordered_dict['c'] = 3
 # Iterating over the OrderedDict
 for key, value in ordered_dict.items():
     print(key, value)
-```
+{{< / highlight >}}
 
 ## Cola de Prioridad
 
@@ -292,7 +292,7 @@ Esta estructura de datos se implementa comúnmente con montículos, un tipo espe
 - O(1) - leer el elemento de mayor prioridad
 - O(logn) - insertar o eliminar un elemento
 
-```python
+{{< highlight python "linenos=table" >}}
 import heapq
 
 pq = []
@@ -306,7 +306,7 @@ heapq.heappop(pq)
 # -> (0, David)
 heapq.heappop(pq)
 # -> (1, Charly)
-```
+{{< / highlight >}}
 
 ## Mapas de bits
 
@@ -315,7 +315,7 @@ Estructura de datos que almacena eficientemente valores de bits en un array, los
 - O(1) - escribir y leer un valor binario
 - O(1) - álgebra de conjuntos
 
-```python
+{{< highlight python "linenos=table" >}}
 # Can be initialized as integer too.
 bitmap = 0b0000
 
@@ -351,7 +351,7 @@ A & ~B
 # Check all bits
 numBits = 4
 A & ((1 << numBits) - 1)
-```
+{{< / highlight >}}
 
 ## Grafos
 
@@ -361,7 +361,7 @@ Estructura de datos que organiza los datos en términos de sus relaciones.
 
 Estructura de datos de grafo que organiza los datos en formato jerárquico y no tiene ciclos. A menudo se representa como una clase con punteros recursivos a sus hijos.
 
-```python
+{{< highlight python "linenos=table" >}}
 class Node:
 	def __init__(self, val):
 		self.val = val
@@ -370,13 +370,13 @@ class Node:
 root = Node(0)
 child = Node(1)
 root.children.append(child)
-```
+{{< / highlight >}}
 
 ### Árbol Binario
 
 Es un caso especial de árbol donde cada nodo tiene como máximo 2 hijos. Esta estructura de datos se suele representar con hijos izquierdo y derecho.
 
-```python
+{{< highlight python "linenos=table" >}}
 class Node:
 	def __init__(self, val):
 		self.val = val
@@ -385,7 +385,7 @@ class Node:
 
 root = Node(0)
 root.left = Node(1)
-```
+{{< / highlight >}}
 
 ### Búsqueda en Profundidad
 
@@ -398,7 +398,7 @@ Al recorrer un árbol, el procesamiento del valor puede ocurrir antes de visitar
     - O(n) - peor caso de complejidad de memoria, si el árbol está sesgado
     - O(logn) - complejidad de memoria si el árbol está equilibrado
 
-```python
+{{< highlight python "linenos=table" >}}
 # Iterative implementation of DFS
 stack = []
 # Add the root node to the stack
@@ -425,7 +425,7 @@ def DFS(node):
 
 # Start by traversing the root
 DFS(root)
-```
+{{< / highlight >}}
 
 ### Búsqueda en Amplitud
 
@@ -433,7 +433,7 @@ También llamada BFS, es una técnica para recorrer un grafo o árbol por nivele
 
 - O(n) - complejidad temporal
 
-```python
+{{< highlight python "linenos=table" >}}
 from collections import deque
 # Iterative implementation of DFS
 queue = deque()
@@ -450,13 +450,13 @@ while queue:
 	if curr.right: stack.append(curr.right)
 	
 	# Process here if Post-order traversal
-```
+{{< / highlight >}}
 
 ### Backtracking
 
 Una técnica algorítmica para recorrer un array y procesar no solo el valor sino también el camino tomado hasta el valor. Esto es especialmente útil para modelar decisiones como árboles y comparar resultados, por ejemplo en juegos.
 
-```python
+{{< highlight python "linenos=table" >}}
 stack = []
 # Add an empty array as the path and the root node
 stack.append(([], root)
@@ -468,11 +468,11 @@ while stack:
 		stack.append((path + [curr.val], curr.left)
 	if curr.right:
 		stack.append((path + [curr.val], curr.right)
-```
+{{< / highlight >}}
 
 El backtracking también puede implementarse de manera recursiva, y a veces puede ser un poco más fácil pensar en este algoritmo de esta manera.
 
-```python
+{{< highlight python "linenos=table" >}}
 def BacktrackingWithDFS(path, node):
 	# Process end of graph
 	if not node: return
@@ -483,4 +483,4 @@ def BacktrackingWithDFS(path, node):
 	BacktrackingWithDFS(path + [node.val], node.right)
 
 BacktrackingWithDFS([], root)
-```
+{{< / highlight >}}
