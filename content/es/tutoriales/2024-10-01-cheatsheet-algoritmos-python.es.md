@@ -1,6 +1,6 @@
 ---
 title: "Cheatsheet de Algoritmos en Python"
-slug: "problemas-leetcode"
+slug: "algoritmos-cheatsheet-python"
 date: "2024-10-01"
 toc: false
 readTime: true
