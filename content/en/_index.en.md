@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Carlos Nexans' website
 ---
 
 # Hello, I'm Carlos Nexans
