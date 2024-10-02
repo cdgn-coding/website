@@ -106,7 +106,7 @@ graph TD;
 
 De cara a esta fase, podemos esperar, además de mejoras de razonamiento, la interacción con el mundo exterior y la iniciativa.
 
-Imagina un asistente de IA que no solo explica cómo hacer algo, sino que lo hace por usted:
+Imagina un asistente de IA que no solo explica cómo hacer algo, sino que lo hace por ti:
 
 - Enviar correos electrónicos
 - Programar reuniones
