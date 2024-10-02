@@ -10,7 +10,7 @@ showTags: false
 hideBackToTop: true
 draft: false
 tags: ["internet"]
-feature_image: "/2024-24-08-que-hace-la-web-especial/picture.webp"
+feature_image: "/2024-10-01-fase-2-hacia-la-agi/picture.webp"
 ---
 
 ## Introducción
