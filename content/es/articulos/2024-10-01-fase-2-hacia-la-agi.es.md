@@ -130,13 +130,13 @@ Para alcanzar este nivel, los futuros sistemas de IA necesitarán:
 - Habilidad para combinar conceptos de manera creativa
 - Mecanismos para evaluar y refinar ideas
 
-En este sentido, es probable que veamos surgir nuevas arquitecturas en esta dirección.
+En este sentido, es probable que veamos surgir nuevas arquitecturas en esa dirección.
 
 ## Conclusiones
 
 El avance de la IA desde simples chatbots hasta sistemas capaces de razonar y potencialmente innovar marca un cambio de paradigma en la tecnología.
 
-A medida que nos acercamos a la AGI, debemos considerar las implicaciones éticas, los marcos regulatorios y las oportunidades y desafíos que aparecerán que permearán en el resto de las ciencias.
+A medida que nos acercamos a la AGI, debemos considerar las implicaciones éticas, los marcos, así como las oportunidades y desafíos que aparecerán.
 
 La IA va a transformar drásticamente la sociedad. Mantenerse informado y participar en estas discusiones es clave para desarrolladores, investigadores y el público en general.
 

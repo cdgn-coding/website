@@ -136,7 +136,7 @@ In this sense, we are likely to see new architectures emerge in this direction.
 
 The advancement of AI from simple chatbots to systems capable of reasoning and potentially innovating marks a paradigm shift in technology.
 
-As we approach AGI, we must consider the ethical implications, regulatory frameworks, and the opportunities and challenges that will arise and permeate the rest of the sciences.
+As we approach AGI, we must consider the ethical implications, regulatory frameworks, and the opportunities and challenges that will arise.
 
 AI is going to drastically transform society. Staying informed and participating in these discussions is key for developers, researchers, and the general public.
 
