@@ -137,7 +137,7 @@ Es importante destacar que el desarrollo de IA innovadoras no se limita a un ún
 
 El avance de la IA desde simples chatbots hasta sistemas capaces de razonar y potencialmente innovar marca un cambio de paradigma en la tecnología.
 
-A medida que nos acercamos a la AGI, debemos considerar las implicaciones éticas, los marcos, así como las oportunidades y desafíos que aparecerán.
+A medida que nos acercamos a la AGI, debemos considerar las implicaciones éticas, los marcos legales, así como las oportunidades y desafíos que aparecerán.
 
 La IA va a transformar drásticamente la sociedad. Mantenerse informado y participar en estas discusiones es clave para desarrolladores, investigadores y el público en general.
 
