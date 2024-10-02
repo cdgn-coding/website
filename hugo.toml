@@ -64,6 +64,8 @@ posthogEnabled = true
 
 # Meta description
 description = "Website y blog de tecnología de Carlos Nexans"
+avatar = "/brand/logo.png"
+author = "Carlos Nexans"
 
 # Appearance settings
 theme = 'auto'
