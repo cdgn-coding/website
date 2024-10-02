@@ -130,7 +130,7 @@ Para alcanzar este nivel, los futuros sistemas de IA necesitarán:
 - Habilidad para combinar conceptos de manera creativa
 - Mecanismos para evaluar y refinar ideas
 
-En este sentido, es probable que veamos surgir nuevas arquitecturas en esa dirección.
+Es importante destacar que el desarrollo de IA innovadoras no se limita a un único enfoque. Mientras que los modelos basados en lenguaje han mostrado un progreso significativo, otros paradigmas como los sistemas cognitivos integrados o los enfoques basados en la evolución también ofrecen caminos prometedores hacia la AGI.
 
 ## Conclusiones
 
@@ -142,6 +142,7 @@ La IA va a transformar drásticamente la sociedad. Mantenerse informado y partic
 
 ## Lecturas recomendadas
 
+- [Artificial General Intelligence: Concept, State of the Art, and Future Prospects](https://sciendo.com/article/10.2478/jagi-2014-0001). Ben Goertzel, 2014.
 - [Chain of Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903). Wei et al., 2022.
 - [Self-Consistency Improves Chain of Thought Reasoning in Language Models](https://arxiv.org/abs/2203.11171). Wang et al., 2023.
 - [Scaling Laws for Neural Language Models](https://arxiv.org/abs/2001.08361). Kaplan et al., 2020
