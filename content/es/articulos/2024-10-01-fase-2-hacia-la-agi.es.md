@@ -11,6 +11,7 @@ showTags: false
 hideBackToTop: true
 draft: false
 tags: ["tendencias", "IA"]
+feature_image: "/2024-24-08-que-hace-la-web-especial/picture.webp"
 ---
 
 Recientemente OpenAI hizo el lanzamiento de [ChatGPT o1](https://openai.com/index/introducing-openai-o1-preview/). Una nueva versión de su chatbot que no mejora en velocidad, sino su capacidad de resolver problemas complejos **razonando**, [demostrando acercarse al nivel de doctorado](https://openai.com/index/learning-to-reason-with-llms/).

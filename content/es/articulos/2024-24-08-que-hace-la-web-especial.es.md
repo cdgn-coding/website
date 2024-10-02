@@ -10,6 +10,7 @@ showTags: false
 hideBackToTop: true
 draft: false
 tags: ["internet"]
+feature_image: "/2024-24-08-que-hace-la-web-especial/picture.webp"
 ---
 
 ## Introducción
