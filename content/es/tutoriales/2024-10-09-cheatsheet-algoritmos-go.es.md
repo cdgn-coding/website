@@ -335,12 +335,6 @@ for k := range A {
 // AnB contiene 3
 {{< / highlight >}}
 
-### Diccionario Ordenado
-
-Los mapas regulares en Go no garantizan ningún orden particular al iterar sobre sus claves o valores. Si necesitas mantener el orden de inserción, puedes usar una combinación de un slice y un mapa.
-
-Sin embargo, la biblioteca estándar de Go no proporciona un tipo de mapa ordenado.
-
 ## Cola de Prioridad
 
 La Cola de Prioridad, también conocida como PQ, es una estructura de datos cuyo objetivo es dar acceso a elementos basándose en su prioridad asignada. La cola mantiene un orden de prioridad tal que los elementos con mayor prioridad (o menor, dependiendo de la implementación) siempre son accedidos primero.

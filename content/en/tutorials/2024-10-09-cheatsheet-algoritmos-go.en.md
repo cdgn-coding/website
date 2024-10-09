@@ -335,12 +335,6 @@ for k := range A {
 // AnB contains 3
 {{< / highlight >}}
 
-### Ordered Dictionary
-
-Regular maps in Go do not guarantee any particular order when iterating over their keys or values. If you need to maintain the order of insertion, you can use a combination of a slice and a map.
-
-However, Go's standard library does not provide an ordered map type.
-
 ## Priority Queue
 
 Priority Queue, also known as PQ, is a data structure whose objective is to give access to elements based on their assigned priority. The queue maintains an order of priority such that elements with the highest priority (or lowest, depending on the implementation) are always accessed first.
