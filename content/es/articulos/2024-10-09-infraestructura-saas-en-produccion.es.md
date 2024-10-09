@@ -8,7 +8,7 @@ autonumber: true
 math: true
 showTags: false
 hideBackToTop: true
-draft: true
+draft: false
 description: "Descubre las lecciones clave al desarrollar un SaaS en producción, desde la importancia de una planificación estratégica, hasta cómo elegir la infraestructura adecuada y evitar los altos costos del no-code. Aprende a optimizar tu SaaS para el éxito a largo plazo."
 tags: ["saas"]
 ---
@@ -33,12 +33,6 @@ Las plataformas nocode como **Webflow** o **Bubble** son excelentes para iniciar
 
 Considera incorporar talento técnico a tu equipo o aprender habilidades básicas de programación. Herramientas como **Supabase** o **Firebase** ofrecen más control y escalabilidad, aprovechando el código abierto y permitiéndote adaptar tu producto a las necesidades cambiantes de tus usuarios.
 
-### Caso de Estudio: **Synthflow**
-
-Existen varios casos de SaaS que comenzaron utilizando herramientas **NoCode** y, eventualmente, tuvieron que migrar a soluciones basadas en código debido a la escalabilidad y personalización necesarias.
-
-**Synthflow**, que empezó como una herramienta NoCode para crear chatbots, implementó programación para ofrecer funcionalidades avanzadas como llamadas basadas en IA, lo que les permitió escalar y recaudar $1.8 millones en 2023.
-
 ## Selecciona la Infraestructura Correcta desde el Inicio
 
 La elección de la arquitectura y la infraestructura es una decisión crítica que impactará en el rendimiento y los costos de tu SaaS. Haz proyecciones realistas sobre el número de usuarios que esperas en el primer año:
@@ -47,12 +41,6 @@ La elección de la arquitectura y la infraestructura es una decisión crítica q
 - **A medida que creces**: Podría ser más eficiente migrar a servidores dedicados o infraestructuras híbridas que ofrezcan mayor control y rendimiento.
 
 Tomar decisiones informadas desde el principio te evitará migraciones costosas y tiempos de inactividad en el futuro.
-
-### Caso de Estudio: **Dropbox y Basecamp**
-
-Inicialmente, **Dropbox** utilizó servicios en la nube para soportar su plataforma de almacenamiento de archivos. Con el crecimiento masivo de usuarios, los costos y la necesidad de un mayor control los llevaron a construir su propia infraestructura personalizada. Al desarrollar sus propios centros de datos y hardware optimizado, redujeron significativamente los costos operativos y mejoraron el rendimiento del servicio.
-
-**Basecamp**, conocido por sus herramientas de gestión de proyectos, [decidió migrar](https://world.hey.com/dhh/why-we-re-leaving-the-cloud-654b47e0) de soluciones en la nube a servidores físicos propios (bare metal) después de años utilizando la nube. Al mover su infraestructura a servidores dedicados, redujeron costos y obtuvieron mayor control sobre su plataforma. Esta decisión se tomó con base en la estabilidad y proyecciones de crecimiento de la empresa, mostrando la importancia de elegir una infraestructura adecuada para el mediano y largo plazo.
 
 ## Prioriza una Experiencia de Usuario Sólida
 
@@ -64,12 +52,6 @@ Un SaaS exitoso no se trata solo de que la aplicación funcione; se trata de ofr
 
 Recuerda que una mala experiencia puede alejar a tus primeros clientes, por lo que es crucial ofrecer calidad desde el día uno.
 
-### Caso de Estudio: **Booking.com**
-
-**Booking.com** enfrentó problemas de disponibilidad y rendimiento a medida que su plataforma crecía. Implementaron un sistema robusto de **monitoreo y observabilidad** que les permitió detectar y resolver problemas de manera rápida.
-
-Este sistema mejoró la experiencia del usuario y redujo significativamente el tiempo medio de resolución (MTTR) de los incidentes, asegurando estabilidad en su plataforma.
-
 ## Prepárate con Planes de Contingencia
 
 Los errores y fallos son inevitables, pero tu respuesta ante ellos marcará la diferencia:
@@ -77,10 +59,6 @@ Los errores y fallos son inevitables, pero tu respuesta ante ellos marcará la d
 - **Comunicación Clara**: Establece canales para informar rápidamente a tus usuarios sobre cualquier incidencia y las medidas que estás tomando.
 - **Respuesta Rápida**: Ten protocolos definidos para resolver problemas críticos y minimizar el impacto en tus clientes.
 - **Genera Confianza**: La transparencia y eficiencia en la gestión de problemas fortalecen la relación con tus usuarios y construyen una reputación sólida.
-
-### Caso de Estudio: **Monzo**
-
-**Monzo**, un banco digital, entiende que la confianza es fundamental en el sector financiero. Implementaron robustos planes de contingencia y comunicación para manejar cualquier interrupción en el servicio. Al informar proactivamente a los usuarios sobre problemas y soluciones, mantuvieron altos niveles de satisfacción y confianza, incluso en situaciones difíciles.
 
 ## Conclusión
 
