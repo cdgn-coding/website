@@ -13,22 +13,11 @@ description: "Descubre las lecciones clave al desarrollar un SaaS en producción
 tags: ["saas"]
 ---
 
-Lanzar un SaaS (Software como Servicio) es una aventura emocionante que combina innovación, estrategia y tecnología.
+¿Estás considerando lanzar un SaaS? Es una aventura emocionante, pero también está llena de trampas, sobretodo para indie hackers, desarrolladores y emprendedores sin conocimiento técnico.
 
-Si estás pensando en adentrarte en este mundo, ya sea como emprendedor, desarrollador o indie hacker, es posible que tu idea de una SaaS se vea así.
+En lugar de apresurarte a lanzar un producto en [un fin de semana](https://arunas.dev/how-to-build-a-saas-in-a-weekend/) o [menos](https://marclou.beehiiv.com/p/how-to-build-a-startup-in-24-hours), aquí te comparto lo que he aprendido tras años de trabajar en SaaS: los errores comunes, cómo evitarlos y qué infraestructura debes elegir para asegurar el éxito a largo plazo.
 
-```mermaid
-graph LR;
-    U["fa:fa-user "] -->sg1
-    subgraph sg1[ ]
-    direction LR
-    A[Aplicación] --> B[(Base de datos)];
-    end
-```
-
-Se encuentran artículos como [Como construir un SaaS en un fin de semana](https://arunas.dev/how-to-build-a-saas-in-a-weekend/) o incluso [Cómo construir tu SaaS en 24 horas](https://marclou.beehiiv.com/p/how-to-build-a-startup-in-24-hours). Si bien es valioso pensar en validar rápido qué tiene tracción, es una ingenua, y mala, idea simplificar la construcción de una SaaS.
-
-Ya tengo algunos años trabajando en SaaS, por lo cual quiero compartirte algunos aprendizajes que tuve en el camino y, tal vez, te ayuden en tu camino emprededor.
+Incluso un SaaS simple involucra múltiples componentes que deben estar bien coordinados. Desde la base de datos hasta la observabilidad y atención al cliente, cada parte es crítica para asegurar una experiencia de usuario robusta y escalable.
 
 ## La Velocidad No Siempre es Sinónimo de Éxito
 
@@ -40,7 +29,9 @@ Es común sentirse tentado por la idea de lanzar un producto rápidamente, sigui
 
 Una visión clara y una ejecución bien diseñada no deben apresurarse. Este enfoque te ahorrará tiempo y recursos a largo plazo. En lugar de construir un producto de forma rápida para validarlo, puedes validar utilizando otros tipos de producto mínimo viable (MVP) o haciendo un estudio de mercado.
 
-El producto mínimo viable [Smoke Test](https://www.fabrizioscoglio.com/prueba-de-humo/) se basa en vender el producto antes de construirlo, para validar si existen personas interesadas en comprarlo. De esta manera, puedes probar tu idea de SaaS sin necesidad de crearla, y modificar la oferta con base en los resultados del mercado.
+Incluso antes de escribir una sola línea de código, encuestas, entrevistas con potenciales usuarios y campañas de pre-lanzamiento pueden ofrecer insights valiosos.
+
+Por ejemplo, un ‘[smoke test](https://www.fabrizioscoglio.com/prueba-de-humo/)’ puede incluir lanzar una página de aterrizaje que describa tu SaaS y permita a los usuarios registrarse para recibir más información o acceder a un precio anticipado.
 
 Una vez que tienes clara tu visión y validaste tu idea, puedes comenzar a construir, no antes.
 
@@ -94,33 +85,12 @@ Por último, si una de las características de tu SaaS es la disponibilidad, con
 
 ## Conclusión
 
-Desarrollar y lanzar un SaaS es un desafío que va más allá de construir un producto funcional rápidamente.
+Construir un SaaS sólido no es una carrera de velocidad, sino de resistencia.
 
-Requiere un equilibrio entre una ejecución cuidadosa, un enfoque estratégico y el uso eficiente de herramientas e infraestructura. Por este motivo, tu idea de SaaS debe verse así
+Escoge una audiencia o un problema que te importe.
 
-```mermaid
-graph LR;
-    U["fa:fa-user Usuario"] --> sg1
-    subgraph sg1[ ]
-    direction LR
-    A[Aplicación] --> B[(Base de datos)];
-    A --> C[Observabilidad];
-    A --> D[Métricas de Uso];
-    A --> E[Plataforma de Logging];
-    A --> J[Atención al Cliente];
-    C --> F[Monitorización];
-    C --> G[Alertas];
-    E --> H[Almacenamiento de Logs];
-    E --> I[Análisis de Logs];
-    J --> K[Gestión de Tickets];
-    J --> L[Autoayuda y documentación];
-    end
-```
+Toma decisiones informadas, valida tus ideas y selecciona la infraestructura correcta desde el principio.
 
-Al centrarte en una planificación sólida y en ofrecer la mejor experiencia posible al usuario, estarás sentando las bases para el éxito de tu producto.
+Así estarás construyendo los cimientos para un negocio sostenible y exitoso.
 
-Toma mucho más que un fin de semana crear un SaaS.
-
-Pero si lo construyes por las razones correctas, como ayudar a tu segmento de mercado que te importa a conseguir un resultado deseado.
-
-Te aseguro que valdrá la pena.
+Recuerda, cada paso que des ahora tiene un impacto en el futuro, así que tómalo con calma, planifica y sigue adelante.
