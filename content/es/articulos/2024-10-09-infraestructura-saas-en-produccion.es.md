@@ -79,7 +79,7 @@ Diseña procesos para comunicar y resolver incidentes en la aplicación, prioriz
 
 Para manejar la atención al cliente puedes usar Zendesk o alternativas open source más económicas como [Peppermint](https://peppermint.sh/).
 
-En este sentido, el sistema debe contar con herramientas para auditar y observar los hechos ocurridos en producción. Por un lado, en tu solución de monitoreo tener logs es crucial y por otro, la arquitectura debe ser diseñada para permitir una auditoría acorde al caso de uso.
+En este sentido, el sistema debe contar con herramientas para auditar y observar los hechos ocurridos en producción. Por un lado, es clave contar con logs y por otro, la arquitectura debe ser diseñada para permitir una auditoría acorde al caso de uso.
 
 Por último, si una de las características de tu SaaS es la disponibilidad, considera tener una página de status donde comunicas a tus clientes el estado del servicio y los incidentes ocurridos en tiempo real. Para esto hay soluciones de código abierto como [Upptime](https://upptime.js.org/).
 
