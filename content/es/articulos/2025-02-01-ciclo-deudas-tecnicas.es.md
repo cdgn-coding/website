@@ -12,19 +12,15 @@ draft: false
 tags: ["calidad-software"]
 ---
 
-## ¿Qué es la deuda técnica?
-
 La deuda técnica es el costo futuro de tomar atajos en la calidad del código para acelerar la entrega de un producto. Tomar deuda técnica es una decisión intencional o accidental que implica comprometer la estructura del software con el fin de obtener un beneficio inmediato, a expensas de costos adicionales en el futuro.
-
-## ¿Cómo puede ayudar a un equipo?
 
 Tomar decisiones rápidas y asumir cierta deuda técnica puede ser una estrategia efectiva cuando se busca validar un modelo de negocio o acelerar la llegada al mercado. En estos casos, reducir el tiempo de entrega puede marcar la diferencia entre captar una oportunidad o perderla.
 
 Las funcionalidades incompletas o soluciones provisionales pueden ser aceptables cuando se requiere eliminar riesgos mayores, como la propia viabilidad y deseabilidad del producto.
 
-## ¿Qué riesgos tiene?
-
 Sin embargo, la deuda técnica no es un recurso inagotable y debe manejarse con cuidado para evitar que se convierta en un obstáculo en el desarrollo del producto y la organización.
+
+## ¿Qué riesgos tiene?
 
 La deuda técnica tiene un límite debido a su naturaleza de [rendimientos decrecientes](https://martinfowler.com/articles/is-quality-worth-cost.html). A medida que se acumula, el equipo necesita cada vez más esfuerzo para desarrollar nuevas funcionalidades, ya que la complejidad y el desorden del código aumentan.
 
@@ -46,7 +42,7 @@ Como consecuencia, los desarrolladores trabajan horas extras solo para cumplir f
 
 Si no se rompe este ciclo, la empresa se arriesga a perder talento, tiempo y dinero.
 
-## Cómo escapar del ciclo de deuda técnica
+## Cómo escapar
 
 Si quieres romper con este ciclo y recuperar la salud del equipo y del producto, aquí tienes algunas estrategias clave que he visto funcionar en diferentes equipos.
 
