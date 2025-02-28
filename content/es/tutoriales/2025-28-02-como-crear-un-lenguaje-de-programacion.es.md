@@ -1,5 +1,5 @@
 ---
-title: "Como crear un lenguaje de programación"
+title: "Cómo crear un lenguaje de programación"
 slug: "como-crear-un-lenguaje-de-programacion"
 date: "2025-02-28"
 toc: true
