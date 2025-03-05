@@ -155,6 +155,8 @@ Este rol seguirá llamándose [Ingeniero de Software](https://en.wikipedia.org/w
 
 ### Una reflexión
 
-Como diría Grace Hopper, una de las pioneras de la computación: "La frase más peligrosa en el idioma es 'siempre lo hemos hecho así'".
+Como diría Grace Hopper, una de las pioneras de la computación:
+
+> La frase más peligrosa en el idioma es "siempre lo hemos hecho así"
 
 El vibecoding es un claro ejemplo de cómo la innovación desafía las formas tradicionales de hacer las cosas, recordándonos que la evolución tecnológica no conoce límites y que cada día tenemos la oportunidad de reimaginar lo que creíamos imposible.
