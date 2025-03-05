@@ -152,3 +152,9 @@ A este rol se le conoce como [Ingeniero de Producto](https://posthog.com/blog/wh
 Por otro lado, las empresas que crean tecnología necesitarán expertos con conocimientos profundos en computación e ingeniería para desarrollar productos innovadores.
 
 Este rol seguirá llamándose [Ingeniero de Software](https://en.wikipedia.org/wiki/Software_engineering), y será responsable de construir las bases tecnológicas, desde bases de datos y redes hasta los sistemas que permiten entrenar un LLM.
+
+### Una reflexión
+
+Como diría Grace Hopper, una de las pioneras de la computación: "La frase más peligrosa en el idioma es 'siempre lo hemos hecho así'".
+
+El vibecoding es un claro ejemplo de cómo la innovación desafía las formas tradicionales de hacer las cosas, recordándonos que la evolución tecnológica no conoce límites y que cada día tenemos la oportunidad de reimaginar lo que creíamos imposible.
