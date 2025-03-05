@@ -135,9 +135,7 @@ El software empresarial seguirá necesitando la fiabilidad, consistencia y segur
 
 No obstante, la posibilidad de crear software sin siquiera tener conciencia del código es una realidad, aunque sea para software pequeño y acotado.
 
-Similar a las hojas de cálculo como Excel, en las que cada persona *configura* hojas personalizadas ya sea para llevar las cuentas de su hogar o sus tareas diarias, es probable que suceda exactamente algo similar con el software.
-
-Es probable que en el futuro las personas utilicen *vibecoding* para crear software adaptado a sus necesidades. Ya se han reportado casos de [personas desarrollando software para reemplazar hojas de cálculo](https://x.com/techycarlos/status/1896383106820776418).
+Similar a las hojas de cálculo como Excel, en las que cada persona *configura* hojas personalizadas ya sea para llevar las cuentas de su hogar o sus tareas diarias, las personas utilizarían *vibecoding* para crear software adaptado a sus necesidades. Ya se han reportado casos de [personas desarrollando software para reemplazar hojas de cálculo](https://x.com/techycarlos/status/1896383106820776418).
 
 ### El trabajo en programación será diferente
 
