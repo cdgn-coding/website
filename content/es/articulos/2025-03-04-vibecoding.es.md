@@ -95,7 +95,7 @@ Para superar esta desventaja, los prompts que se le dan a la inteligencia artifi
 
 ### Calidad inconsistente
 
-Los LLM pueden producir código de baja calidad. Es muy frecuente en el *vibecoding* que los archivos crezcan de forma indefinida, sin [separación de responsabilidades](https://en.wikipedia.org/wiki/Single-responsibility_principle), ni principios como [no te repitas](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself).
+Los LLM pueden producir código de baja calidad. Es muy frecuente en el *vibecoding* que los archivos crezcan de forma indefinida, sin [separación de responsabilidades](https://en.wikipedia.org/wiki/Single-responsibility_principle), ni principios como [don't repeat yourself](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself).
 
 Además, los LLM tienden a cometer más errores cuando parten de código de baja calidad. En contraposición, la IA se beneficia de código de buena calidad, aunque tenga dificultades para generarlo.
 
